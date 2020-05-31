@@ -61,4 +61,10 @@ public class MyView extends View {
         drawLinePairs(canvas, drawCubeVertices, 2, 6, redPaint);
         drawLinePairs(canvas, drawCubeVertices, 3, 7, redPaint);
     }
+
+    @Override
+    protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
+        
+    }
 }
