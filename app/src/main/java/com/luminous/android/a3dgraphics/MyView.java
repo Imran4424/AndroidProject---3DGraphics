@@ -20,6 +20,7 @@ public class MyView extends View {
         redPaint.setColor(Color.RED);
         redPaint.setStrokeWidth(2);
 
+        // create a 3D cube
         
     }
 }
