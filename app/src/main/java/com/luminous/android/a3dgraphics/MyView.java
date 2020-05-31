@@ -36,8 +36,9 @@ public class MyView extends View {
 //        drawCubeVertices = scale()
     }
 
+    // draw a line connecting 2 points
     private void drawLinePairs(Canvas canvas, Coordinate[] vertices, int start, int end, Paint paint) {
-        
+
     }
 
 
