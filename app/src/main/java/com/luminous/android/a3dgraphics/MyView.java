@@ -32,15 +32,18 @@ public class MyView extends View {
         cubeVertices[6] = new Coordinate(1, 1, -1, 1);
         cubeVertices[7] = new Coordinate(1, 1, 1, 1);
 
-
-//        drawCubeVertices = scale()
+        
     }
 
     // draw a line connecting 2 points
     private void drawLinePairs(Canvas canvas, Coordinate[] vertices, int start, int end, Paint paint) {
         // canvas - canvas of the view
         // points - array of points
-        // 
+        // start - index of the starting point
+        // end - index of the ending point
+        // paint - the paint of the line
+
+        canvas.drawLine((int) vertices[start].x, (int) vertices[start].y, (int) vertices[end].x, (int) vertices[end].y, paint);
     }
 
 
