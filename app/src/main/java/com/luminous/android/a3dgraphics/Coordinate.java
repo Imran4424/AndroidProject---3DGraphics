@@ -18,8 +18,9 @@ public class Coordinate {
     }
 
     public void normalise() {
+        // 
         if (w != 0) {
-            
+
         }
     }
 }
