@@ -5,7 +5,7 @@ import android.graphics.Paint;
 import android.view.View;
 
 public class MyView extends View {
-    private Paint redPaint;
+    private Paint redPaint; // paint object for drawing lines
 
     public MyView(Context context) {
         super(context);
