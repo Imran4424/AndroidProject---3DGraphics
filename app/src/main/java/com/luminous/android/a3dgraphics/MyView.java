@@ -21,6 +21,6 @@ public class MyView extends View {
         redPaint.setStrokeWidth(2);
 
         // create a 3D cube
-        
+        cubeVertices = new Coordinate[8];
     }
 }
