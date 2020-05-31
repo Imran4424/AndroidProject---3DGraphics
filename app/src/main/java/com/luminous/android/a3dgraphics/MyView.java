@@ -35,7 +35,7 @@ public class MyView extends View {
 //        drawCubeVertices = scale()
     }
 
-    
+    private void drawLine
 
 
 }
