@@ -66,6 +66,6 @@ public class MyView extends View {
     protected void onDraw(Canvas canvas) {
         // draw objects on the screen
         super.onDraw(canvas);
-        drawCube(canvas);
+        drawCube(canvas); // draw a cube onto the screen
     }
 }
