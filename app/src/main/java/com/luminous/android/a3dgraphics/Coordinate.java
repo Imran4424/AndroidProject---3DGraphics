@@ -1,6 +1,6 @@
 package com.luminous.android.a3dgraphics;
 
-//
+// 
 public class Coordinate {
     public double x, y, z, w;
 
