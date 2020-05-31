@@ -1,4 +1,6 @@
 package com.luminous.android.a3dgraphics;
 
-public class MyView {
+import android.view.View;
+
+public class MyView extends View {
 }
