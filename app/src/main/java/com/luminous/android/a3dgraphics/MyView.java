@@ -15,5 +15,6 @@ public class MyView extends View {
 
         // create a Paint object
         redPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
+        redPaint.setStyle(Paint.Style.STROKE);
     }
 }
