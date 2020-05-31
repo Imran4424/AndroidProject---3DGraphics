@@ -23,6 +23,7 @@ public class Coordinate {
             x /= w;
             y /= w;
             z /= w;
+            w = 1;
         }
     }
 }
