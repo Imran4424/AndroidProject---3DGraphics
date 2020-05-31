@@ -96,4 +96,11 @@ public class MyView extends View {
 
         return  matrix;
     }
+
+    // affine transformation with homogeneous coordinates
+    // i.e. a vector(vertex) multiply with transformation matrix
+    public Coordinate transformation(Coordinate vertex, double[] matrix) {
+        // vertex - vector in 3D
+        // matrix - transformation matrix
+    }
  }
