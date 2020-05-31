@@ -32,7 +32,8 @@ public class MyView extends View {
         cubeVertices[6] = new Coordinate(1, 1, -1, 1);
         cubeVertices[7] = new Coordinate(1, 1, 1, 1);
 
-        
+        drawCubeVertices = translate(cubeVertices, 2, 2, 2);
+        drawCubeVertices = scale(drawCubeVertices, 40, 40, 40);
     }
 
     // draw a line connecting 2 points
