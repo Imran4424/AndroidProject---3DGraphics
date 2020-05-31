@@ -1,6 +1,7 @@
 package com.luminous.android.a3dgraphics;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.view.View;
 
@@ -16,5 +17,9 @@ public class MyView extends View {
         // create a Paint object
         redPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         redPaint.setStyle(Paint.Style.STROKE);
+        redPaint.setColor(Color.RED);
+        redPaint.setStrokeWidth(2);
+
+        
     }
 }
