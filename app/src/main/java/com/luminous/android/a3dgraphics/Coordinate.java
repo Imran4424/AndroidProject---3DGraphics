@@ -17,7 +17,7 @@ public class Coordinate {
         this.w = w;
     }
 
-    // 
+    // to keep it as a homogeneous coordinate -> 
     public void normalise() {
         // ensure that w != 0
         if (w != 0) {
