@@ -47,5 +47,7 @@ public class MyView extends View {
         canvas.drawLine((int) vertices[start].x, (int) vertices[start].y, (int) vertices[end].x, (int) vertices[end].y, paint);
     }
 
-
+    private void drawCube(Canvas canvas) {
+        drawLinePairs(canvas, drawCubeVertices, 0, 1, redPaint);
+    }
 }
