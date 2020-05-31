@@ -23,5 +23,8 @@ public class MyView extends View {
         // create a 3D cube
         cubeVertices = new Coordinate[8];
         cubeVertices[0] = new Coordinate(-1, -1, -1, 1);
+        cubeVertices[1] = new Coordinate(-1, -1, 1, 1);
+        cubeVertices[0] = new Coordinate(-1, -1, -1, 1);
+        cubeVertices[0] = new Coordinate(-1, -1, -1, 1);
     }
 }
