@@ -21,6 +21,7 @@ public class Coordinate {
         // ensure that w != 0
         if (w != 0) {
             x /= w;
+            y /= w;
         }
     }
 }
