@@ -3,6 +3,7 @@ package com.luminous.android.a3dgraphics;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.CornerPathEffect;
 import android.graphics.Paint;
 import android.view.View;
 
@@ -102,5 +103,11 @@ public class MyView extends View {
     public Coordinate transformation(Coordinate vertex, double[] matrix) {
         // vertex - vector in 3D
         // matrix - transformation matrix
+
+        Coordinate result = new Coordinate();
+
+        result.x = matrix[0] * vertex.x + matrix[1] * vertex.y + matrix[2] * vertex.z + matrix[3];
+        result.y = matrix[4] * vertex.x + matrix[5] * vertex.y + matrix[6] * vertex.z + matrix[7];
+
     }
  }
