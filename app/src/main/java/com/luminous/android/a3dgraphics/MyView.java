@@ -138,7 +138,7 @@ public class MyView extends View {
     }
 
     private Coordinate[] scale(Coordinate[] vertices, double sx, double sy, double sz) {
-        double []matrix = getIdentityMatrix();
+        double[] matrix = getIdentityMatrix();
         matrix[0] = sx;
         matrix[5] = sy;
         matrix[10] = sz;
