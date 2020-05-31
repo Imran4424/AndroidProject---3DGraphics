@@ -12,5 +12,7 @@ public class MyView extends View {
     public MyView(Context context) {
         super(context);
         final MyView thisView = this;
+
+        // create a Paint object
     }
 }
