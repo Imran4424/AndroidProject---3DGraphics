@@ -1,6 +1,7 @@
 package com.luminous.android.a3dgraphics;
 
 import android.content.Context;
+import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.view.View;
@@ -35,7 +36,9 @@ public class MyView extends View {
 //        drawCubeVertices = scale()
     }
 
-    private void drawLinePairs
+    private void drawLinePairs(Canvas canvas, Coordinate[] vertices, int start, int end, Paint paint) {
+        
+    }
 
 
 }
