@@ -8,7 +8,7 @@ public class Coordinate {
         w = 1;
     }
 
-    // create
+    // create coordinate object
     public Coordinate(int x, int y, int z, int w) {
         this.x = x;
         this.y = y;
