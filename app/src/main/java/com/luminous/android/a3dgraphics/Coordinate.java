@@ -1,6 +1,6 @@
 package com.luminous.android.a3dgraphics;
 
-// homogeneous 
+// homogeneous coordinate 
 public class Coordinate {
     public double x, y, z, w;
 
