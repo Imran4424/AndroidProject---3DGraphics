@@ -49,5 +49,16 @@ public class MyView extends View {
 
     private void drawCube(Canvas canvas) {
         drawLinePairs(canvas, drawCubeVertices, 0, 1, redPaint);
+        drawLinePairs(canvas, drawCubeVertices, 1, 3, redPaint);
+        drawLinePairs(canvas, drawCubeVertices, 3, 2, redPaint);
+        drawLinePairs(canvas, drawCubeVertices, 2, 0, redPaint);
+        drawLinePairs(canvas, drawCubeVertices, 4, 5, redPaint);
+        drawLinePairs(canvas, drawCubeVertices, 5, 7, redPaint);
+        drawLinePairs(canvas, drawCubeVertices, 7, 6, redPaint);
+        drawLinePairs(canvas, drawCubeVertices, 6, 4, redPaint);
+        drawLinePairs(canvas, drawCubeVertices, 0, 4, redPaint);
+        drawLinePairs(canvas, drawCubeVertices, 1, 5, redPaint);
+        drawLinePairs(canvas, drawCubeVertices, 2, 6, redPaint);
+        drawLinePairs(canvas, drawCubeVertices, 3, 7, redPaint);
     }
 }
