@@ -14,5 +14,6 @@ public class MyView extends View {
         final MyView thisView = this;
 
         // create a Paint object
+        redPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
     }
 }
