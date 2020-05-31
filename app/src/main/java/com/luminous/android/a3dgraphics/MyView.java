@@ -24,7 +24,7 @@ public class MyView extends View {
         cubeVertices = new Coordinate[8];
         cubeVertices[0] = new Coordinate(-1, -1, -1, 1);
         cubeVertices[1] = new Coordinate(-1, -1, 1, 1);
-        cubeVertices[0] = new Coordinate(-1, -1, -1, 1);
-        cubeVertices[0] = new Coordinate(-1, -1, -1, 1);
+        cubeVertices[2] = new Coordinate(-1, 1, -1, 1);
+        cubeVertices[3] = new Coordinate(-1, 1, 1, 1);
     }
 }
