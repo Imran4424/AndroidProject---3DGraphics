@@ -22,6 +22,7 @@ public class Coordinate {
         if (w != 0) {
             x /= w;
             y /= w;
+            z /= w;
         }
     }
 }
