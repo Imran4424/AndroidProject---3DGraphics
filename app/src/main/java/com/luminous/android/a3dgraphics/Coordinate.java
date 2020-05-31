@@ -24,6 +24,7 @@ public class Coordinate {
             y /= w;
             z /= w;
         }
+
         w = 1;
     }
 }
