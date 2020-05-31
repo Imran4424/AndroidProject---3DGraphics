@@ -5,7 +5,7 @@ import android.graphics.Paint;
 import android.view.View;
 
 public class MyView extends View {
-    private Paint
+    private Paint redPaint;
 
     public MyView(Context context) {
         super(context);
