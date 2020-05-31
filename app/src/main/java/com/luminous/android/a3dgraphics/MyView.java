@@ -114,17 +114,27 @@ public class MyView extends View {
         return  result;
     }
 
-    //Affine transform a 3D object with vertices
-    public Coordinate[] transformation(Coordinate []vertices,double []matrix)
-    {
+    // Affine transform a 3D object with vertices
+    public Coordinate[] transformation(Coordinate[] vertices,double[] matrix) {
         // vertices - vertices of the 3D object.
         // matrix - transformation matrix
-        Coordinate []result=new Coordinate[vertices.length];
-        for (int i=0;i<vertices.length;i++)
+        Coordinate[] result = new Coordinate[vertices.length];
+        for (int i = 0; i < vertices.length; i++)
         {
-            result[i]= transformation(vertices[i],matrix);
+            result[i] = transformation(vertices[i], matrix);
             result[i].normalise();
         }
+        
         return result;
+    }
+
+    // Affine transformation
+    public Coordinate[] translate(Coordinate[] vertices,double tx,double ty,double tz)
+    {
+        double[] matrix= getIdentityMatrix();
+        matrix[3]=tx;
+        matrix[7]=ty;
+        matrix[11]=tz;
+        return Transformation(vertices,matrix);
     }
  }
