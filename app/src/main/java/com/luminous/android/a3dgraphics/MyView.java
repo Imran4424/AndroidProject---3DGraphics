@@ -20,7 +20,7 @@ public class MyView extends View {
         redPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         redPaint.setStyle(Paint.Style.STROKE);
         redPaint.setColor(Color.RED);
-        redPaint.setStrokeWidth(2);
+        redPaint.setStrokeWidth(5);
 
         // create a 3D cube
         cubeVertices = new Coordinate[8];
@@ -35,6 +35,8 @@ public class MyView extends View {
 
         drawCubeVertices = translate(cubeVertices, 2, 2, 2);
         drawCubeVertices = scale(drawCubeVertices, 40, 40, 40);
+
+        thisView.invalidate(); // update the view
     }
 
     // draw a line connecting 2 points
