@@ -7,6 +7,7 @@ import android.view.View;
 public class MyView extends View {
     private Paint redPaint; // paint object for drawing lines
     private Coordinate[] cubeVertices; // the vertices of 3D cube
+    private Coordinate[] drawCubeVertices;
 
     public MyView(Context context) {
         super(context);
