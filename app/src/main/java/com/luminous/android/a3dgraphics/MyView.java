@@ -38,7 +38,9 @@ public class MyView extends View {
 
     // draw a line connecting 2 points
     private void drawLinePairs(Canvas canvas, Coordinate[] vertices, int start, int end, Paint paint) {
-
+        // canvas - canvas of the view
+        // points - array of points
+        // 
     }
 
 
